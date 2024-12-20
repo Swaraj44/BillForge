@@ -1,0 +1,57 @@
+Git link:
+https://github.com/system0369/BillForge-KUET-Teachers-Edition
+
+Driver Module: gui_login.py
+
+To install the dependencies:
+
+pip install openpyxl
+pip install requests
+pip install xlwings
+pip install sqlite3
+pip install pickle
+pip install python-docx
+pip install googletrans==4.0.0-rc1
+pip install pywin32
+pip install pathlib
+pip install pillow
+pip install tk
+pip install email
+pip install spinner
+pip install smtplib
+
+
+
+
+Python imports for various libraries:
+
+import openpyxl
+import time
+import requests as rq
+import xlwings
+import sqlite3
+import pickle
+import os
+import tkinter as tk
+import threading
+import webbrowser
+import spinner as SP
+import smtplib
+
+
+from docx import Document
+from docx.shared import Pt
+from docx.enum.text import WD_UNDERLINE
+from googletrans import Translator
+from win32com.client import Dispatch
+from pathlib import Path
+from tkinter import Canvas, Entry, Button, PhotoImage, Label,filedialog
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from math import cos, sin, pi
+from PIL import Image, ImageTk, ImageDraw, ImageFilter
+
+
+
+
